@@ -19,10 +19,10 @@ platform :ios do
   
   lane :lint do
   	swiftlint(
-  		mode: :lint,
-  		path: "../AR2DSkeleton_Starter",
-  		output_file: "swiftlint.result.json",
-      config_file: ".swiftlint-ci.yml",
+  	  mode: :lint,
+   	  path: "../AR2DSkeleton_Starter",
+      output_file: "swiftlint.result.json",
+      config_file: "../.swiftlint.yml",
       raise_if_swiftlint_error: true,
       ignore_exit_status: true
     )
