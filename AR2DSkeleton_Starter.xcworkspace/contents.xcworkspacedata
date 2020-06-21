@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:/Users/intelkasetti/Desktop/Pranav_Blog_Demos/AR2DSkeleton_Starter/AR2DSkeleton_Starter.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:AR2DSkeleton_Starter.xcodeproj">
+   </FileRef>
+</Workspace>

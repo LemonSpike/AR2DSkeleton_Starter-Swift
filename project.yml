@@ -1,0 +1,9 @@
+name: AR2DSkeleton_Starter
+options:
+  bundleIdPrefix: pranav.kasetti
+targets:
+  AR2DSkeleton_Starter:
+    type: application
+    platform: iOS
+    deploymentTarget: "13.0"
+    sources: [AR2DSkeleton_Starter]

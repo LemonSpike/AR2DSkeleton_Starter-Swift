@@ -1,0 +1,13 @@
+language: swift
+osx_image: xcode11.6
+podfile: Podfile
+
+before_install:
+  - gem install fastlane --no-document
+  - brew install swiftlint
+
+jobs:
+  include:
+    - stage: Swiftlint
+      script:
+        - swiftlint
